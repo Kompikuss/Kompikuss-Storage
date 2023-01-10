@@ -1,0 +1,58 @@
+body {
+  background: url("https://static.wixstatic.com/media/eb5517_d3cbf1857fec4a188091d3dcd1b18584~mv2.jpg/v1/fill/w_1920,h_1369,al_c,q_90/eb5517_d3cbf1857fec4a188091d3dcd1b18584~mv2.jpg") rgba(255, 255, 255, 0.4);
+  max-width: 100%;
+  max-height: 100%;
+  background-blend-mode: color;
+  }
+main {
+  font-family: "Arial";
+  font-weight: bold;
+  padding: 0 15px 30px;
+}
+h1 {
+  font-size: 35px;
+  bottom: auto;
+  margin-top: 65px;
+  margin-bottom: 12px;
+  padding-left: 12px;
+}
+h2 {
+  padding-left: 25px;
+}
+a {
+  font-family: "Arial";
+  font-weight: bold;
+}
+a:visited{
+  color: black;
+}
+.navbar {
+  overflow: hidden;
+  background-color: hsl(44, 36%, 64%);
+  top: 0;
+  left: 0;
+  width: 100%;
+  border-bottom: solid black;
+  position: fixed;
+}
+.navbar a {
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 15px 17px;
+  text-decoration: none;
+  font-size: 19px;
+  color: black;
+  font-weight: normal;
+  border-style: solid;
+  border-width: thin;
+  border-color: black;
+}
+.navbar a:hover {
+  background: rgba(221, 221, 221, 0.4);
+  color: black;
+  margin: auto;
+}
+.image {
+box-shadow: 2px 2px 7px 5px #000000;
+}
